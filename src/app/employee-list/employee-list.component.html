@@ -15,7 +15,7 @@
             <td>{{ emp.firstName }}</td>
             <td>{{ emp.lastName }}</td>
             <td>{{ emp.emailId }}</td>
-            <td></td>
+            <td> <button (click)="updateEmployee(emp.id)" class="btn btn-info">Update</button> </td>
         </tr>
     </tbody>
 
